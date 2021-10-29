@@ -1,3 +1,6 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
 .call-to-action{
     
     color: white;
@@ -15,4 +18,15 @@
     width: 100%;
     height: 60px; /* Set the fixed height of the footer here */
     color:white;
-  }
+}
+.social-icon{
+    color:white;
+    text-decoration: none;
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+    .main-background-color{
+        background-color: rgb(6, 0, 32);
+    }
+}
